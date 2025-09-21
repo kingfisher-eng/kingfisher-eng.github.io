@@ -1,18 +1,18 @@
 ---
-title: Project Threads
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
+title: Design Controls & Quality Systems
+subtitle: ISO 13485, FDA QSR and more
 image: assets/img/portfolio/01-full.jpg
-alt: Shirts on a hanger
+alt: photos used with permission (Unsplash.com)
 
 caption:
-  title: Threads
-  subtitle: Illustration
+  title: Design Controls & Quality Systems
+  subtitle: Heavily Regulated Industries
   thumbnail: assets/img/portfolio/01-thumbnail.jpg
 ---
 Use this area to describe your project. **Markdown** supported. This entry (project1.md) uses links for the image sources. All other projects in the portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 
 {:.list-inline}
-- Date: January 2017
-- Client: Threads
-- Category: Illustration
+- Date: N/A
+- Client: N/A
+- Category: N/A
 
