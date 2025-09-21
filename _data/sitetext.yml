@@ -55,7 +55,7 @@ timeline:
         image: assets/img/timeline/2.jpg
         alt:
       - title: "21 CFR Part 820"
-        year: FDA Quality System Requirements
+        year: "FDA Quality System Requirements"
         desc: "Transitioning into a new world"
         image: assets/img/timeline/3.jpg
         alt: image alt text
