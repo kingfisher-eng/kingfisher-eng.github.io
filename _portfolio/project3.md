@@ -1,12 +1,12 @@
 ---
-title: Requirements
-subtitle: "Testability" "Clarity"
+title: Support Design & Development
+subtitle: Requirement reviews & Benchtop testing
 image: assets/img/portfolio/03-full.jpg
 alt: 
 
 caption:
   title: Requirements
-  subtitle: "Testability" "Clarity"
+  subtitle: Requirement reviews & Benchtop testing
   thumbnail: assets/img/portfolio/03-thumbnail.jpg
 ---
 
