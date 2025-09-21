@@ -42,8 +42,6 @@ es: &DEFAULT_ES
       section: portafolio
     - title: "Sobre Nosotros"
       section: nosotros
-    - title: "Cronología"
-      section: cronologia
     - title: "Equipo"
       section: equipo
     - title: "Contáctenos"
