@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   header:
     title: Compliance Consulting for Heavily Regulated Industries
-    text:     
+    text:      
     button: Tell Me More
     buttonlink: "#services"
 
@@ -50,7 +50,7 @@ en: &DEFAULT_EN
           image: assets/img/timeline/1.jpg
           alt:
         - title: "Regulation (EU) 2017/745 (EU MDR)"
-          year: "2017"
+          year: "Medical Device Regulation for Europe & more"
           desc: "Driving change in the global markets"
           image: assets/img/timeline/2.jpg
           alt:
