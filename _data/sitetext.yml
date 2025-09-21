@@ -12,12 +12,12 @@
 en: &DEFAULT_EN
   header:
     title: Compliance Consulting for Heavily Regulated Industries
-    text: Kingfisher Engineering!
+    text: Kingfisher Engineering
     button: Tell Me More
     buttonlink: "#services"
 
   services:
-    title: "Consulting Services"
+    title: "Expertise and Experience in Medical Devices"
     text: "Leverage Kingfisher's experience and knowledge for your project"
     section: services
     list:
@@ -32,10 +32,41 @@ en: &DEFAULT_EN
         icon: fas fa-business-time
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Services"
+    text: "What can Kingfisher help you do?"
     section: portfolio
     closebutton: "Close Project"
+
+timeline:
+    title: "Knowledge Base"
+    text: "International experience from Korea, Japan, US, UK, EU and more"
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "ISO 13485"
+        year: 
+        desc: "Trained for internal auditing, "
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: "Regulation (EU) 2017/745 (EU MDR)"
+        year: 
+        desc: "Driving change in the global markets"
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: "21 CFR Part 820 (FDA QSR)"
+        year: 
+        desc: "Transitioning into a new world"
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+      - title: "IEC 60601-1 General Electrical Safety"
+        year: 
+        desc: "Expertise with the General, Collateral and Particular standards"
+        image: assets/img/timeline/4.jpg
+        alt:
+        # you can enforce the alignment
+        align: right
+    end: "Be Part <br> of Our <br> Story!"
 
   about:
     title: "About Us"
@@ -55,7 +86,6 @@ en: &DEFAULT_EN
         social:
           - url: https://linkedin.com
             icon: fas fa-address-book
-
 
   contact:
     title: "Contact Us"
