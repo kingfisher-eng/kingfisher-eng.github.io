@@ -18,18 +18,18 @@ en: &DEFAULT_EN
 
   services:
     title: "Consulting Services"
-    text: "Leverage Kingfisher's experience and knowledge for you"
+    text: "Leverage Kingfisher's experience and knowledge for your project"
     section: services
     list:
-      - title: "Verification & Validation"
-        desc: "From Design Input to Design Validation, Kingfisher can guide you" 
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Regulatory Compliance"
-        desc: "Trained to ISO 13485, IEC 60601 Electrical Safety and FDA QSR"
-        icon: fas fa-laptop
+      - title: "Team Leading Verification & Validation"
+        desc: "From Design Input to Design Validation, Kingfisher can guide you on successful, compliant V&V" 
+        icon: fas fa-ruler #find more at https://fontawesome.com/icons
+      - title: "Standards Expertise"
+        desc: "Trained to ISO 13485, IEC 60601 Electrical Safety and FDA QSR. Gap analyses, regulatory surveys and more"
+        icon: fas fa-file-contract
       - title: "15 years of Medical Device Experience"
         desc: "Diverse experience in cardiac devices, infant incubators and endoscopy"
-        icon: fab fa-markdown
+        icon: fab fa-notes-medical
 
   portfolio:
     title: "Portfolio"
