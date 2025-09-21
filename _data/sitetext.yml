@@ -37,36 +37,36 @@ en: &DEFAULT_EN
     section: portfolio
     closebutton: "Close Project"
 
-timeline:
-    title: "Knowledge Base"
-    text: "International experience from Korea, Japan, US, UK, EU and more"
-    section: timeline
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "ISO 13485"
-        year: "Medical devices -- Quality management systems"
-        desc: "Trained for internal auditing, "
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "Regulation (EU) 2017/745 (EU MDR)"
-        year: "Medical Device Regulation"
-        desc: "Driving change in the global markets"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "21 CFR Part 820"
-        year: "FDA Quality System Requirements"
-        desc: "Transitioning into a new world"
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "IEC 60601-1 Family"
-        year: "General Electrical Safety"
-        desc: "Expertise with the General, Collateral and Particular standards"
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
+  timeline:
+      title: "Knowledge Base"
+      text: "International experience from Korea, Japan, US, UK, EU and more"
+      section: timeline
+      # left is the default
+      #start_align: "left"
+      events:
+        - title: "ISO 13485"
+          year: "2016"
+          desc: "Trained for internal auditing, "
+          image: assets/img/timeline/1.jpg
+          alt:
+        - title: "Regulation (EU) 2017/745 (EU MDR)"
+          year: "2017"
+          desc: "Driving change in the global markets"
+          image: assets/img/timeline/2.jpg
+          alt:
+        - title: "21 CFR Part 820"
+          year: "FDA Quality System Requirements"
+          desc: "Transitioning into a new world"
+          image: assets/img/timeline/3.jpg
+          alt: image alt text
+        - title: "IEC 60601-1 Family"
+          year: "General Electrical Safety"
+          desc: "Expertise with the General, Collateral and Particular standards"
+          image: assets/img/timeline/4.jpg
+          alt:
+          # you can enforce the alignment
+          align: right
+      end: "Be Part <br> of Our <br> Story!"
 
   about:
     title: "About Us"
