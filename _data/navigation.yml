@@ -13,10 +13,10 @@ en: &DEFAULT_EN
   nav:
     - title: "Services"
       section: portfolio
-    - title: "Knowledge Base"
-      section: timeline
     - title: "About"
       section: about
+    - title: "Knowledge Base"
+      section: timeline
     - title: "Team"
       section: team
     - title: "Contact"
