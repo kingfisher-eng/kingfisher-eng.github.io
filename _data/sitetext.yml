@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   header:
     title: Compliance Consulting for Heavily Regulated Industries
-    text: Welcome to Kingfisher Engineering!
+    text: Kingfisher Engineering!
     button: Tell Me More
     buttonlink: "#services"
 
