@@ -16,7 +16,7 @@ en: &DEFAULT_EN
     - title: "Services"
       section: portfolio
     - title: "Knowledge Base"
-      section: team
+      section: timeline
     - title: "About"
       section: about
     - title: "Team"
