@@ -1,12 +1,12 @@
 ---
-title: Benchtop Testing
-subtitle: Electro-mechanical testing to support development
+title: State of the Art Gap Analyses
+subtitle: Are you up to date?
 image: assets/img/portfolio/02-full.jpg
 alt: Image used with permission (Unsplash)
 
 caption:
-  title: Benchtop Testing
-  subtitle: Electro-mechanical testing to support development
+  title: State of the Art Gap Analyses
+  subtitle: Are you up to date?
   thumbnail: assets/img/portfolio/02-thumbnail.jpg
 ---
 
