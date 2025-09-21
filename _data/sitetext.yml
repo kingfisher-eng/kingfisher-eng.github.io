@@ -29,7 +29,7 @@ en: &DEFAULT_EN
         icon: fas fa-file-contract
       - title: "15 years of Medical Device Experience"
         desc: "Diverse experience in cardiac devices, infant incubators and endoscopy"
-        icon: fab fa-business-time
+        icon: fa-solid fa-business-time
 
   portfolio:
     title: "Portfolio"
