@@ -11,10 +11,12 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Services"
+    - title: "Top Level"
       section: services
-    - title: "Portfolio"
+    - title: "Services"
       section: portfolio
+    - title: "Knowledge Base"
+      section: team
     - title: "About"
       section: about
     - title: "Team"
