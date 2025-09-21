@@ -1,5 +1,5 @@
 ---
-title: Netherlands Based
+title: On-site Netherlands
 subtitle: Remote International
 image: assets/img/portfolio/06-full.jpg
 alt: 
