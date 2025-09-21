@@ -11,8 +11,6 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Top Level"
-      section: services
     - title: "Services"
       section: portfolio
     - title: "Knowledge Base"
