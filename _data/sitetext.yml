@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   header:
     title: Compliance Consulting for Heavily Regulated Industries
-    text:  
+    text:     
     button: Tell Me More
     buttonlink: "#services"
 
