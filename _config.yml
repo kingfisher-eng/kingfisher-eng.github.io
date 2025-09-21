@@ -33,7 +33,7 @@ analytics:
 collections:
   portfolio:
 
-<script src="https://kit.fontawesome.com/a0118f5e1e.js" crossorigin="anonymous"></script>
+#<script src="https://kit.fontawesome.com/a0118f5e1e.js" crossorigin="anonymous"></script>
 
 markdown: kramdown
 
