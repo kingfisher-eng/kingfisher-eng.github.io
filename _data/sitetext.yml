@@ -11,8 +11,8 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to Kingfisher Engineering!
-    text: It's Nice To Meet You
+    title: Compliance Consulting for Heavily Regulated Industries
+    text: Welcome to Kingfisher Engineering!
     button: Tell Me More
     buttonlink: "#services"
 
