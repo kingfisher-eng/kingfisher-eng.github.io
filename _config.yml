@@ -1,76 +1,140 @@
-# Site settings
-title: "Jekyll Resume Template"
-description: "A resume template for Jekyll and GitHub Pages sites."
+---
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #202522;
+      --muted: #68736c;
+      --accent: #287a59;
+      --paper: #f3f5f1;
+      --card: #fff;
+    }
 
-# Build settings
-markdown: kramdown
-sass:
-  sass_dir: _sass
-  style: compressed
+    * { box-sizing: border-box; }
 
-# Resume settings
-resume_avatar:                  "true"
-resume_name:                    "Lisa M. Simpson"
-resume_title:                   "VP of Global Communications"
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font: 16px/1.6 system-ui, sans-serif;
+    }
 
-# used for the contact button in _layouts/resume.html
-resume_contact_email:           "lisasimpson@youremailaddress.com"
+    main {
+      width: min(100% - 2rem, 680px);
+      margin: 4rem auto;
+    }
 
-# the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "555-7334"
-resume_contact_address:         "742 Evergreen Terrace, Springfield"
+    section {
+      background: var(--card);
+      border: 1px solid #e2e8e1;
+      border-radius: 1.25rem;
+      padding: clamp(1.5rem, 6vw, 3rem);
+      margin-bottom: 1rem;
+      box-shadow: 0 12px 32px #243a2d0c;
+    }
 
-resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
-display_header_contact_info:    "false"
+    .profile {
+      text-align: center;
+    }
 
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
+    .avatar {
+      display: grid;
+      place-items: center;
+      width: 88px;
+      height: 88px;
+      margin: 0 auto 1rem;
+      border-radius: 50%;
+      background: #e3f0e8;
+      color: var(--accent);
+      font-size: 1.8rem;
+      font-weight: 700;
+    }
 
-# use "yes" to display the email contact button,
-# "no" to display an "I'm not looking for work" message,
-# or remove the resume_looking_for_work option entirely
-# to leave blank
-resume_looking_for_work:        "yes"
+    h1, h2, p { margin-top: 0; }
+    h1 { margin-bottom: .25rem; font-size: clamp(2rem, 7vw, 3rem); line-height: 1.1; }
+    h2 { font-size: 1.1rem; }
+    .role, .location, .note { color: var(--muted); }
+    .role { margin-bottom: .5rem; }
+    .bio { max-width: 42ch; margin: 1.5rem auto; }
 
-# Decide which sections to use
-# comment out to hide
-resume_section_experience:      true
-resume_section_education:       true
-resume_section_projects:        true
-resume_section_skills:          true
-resume_section_recognition:     true
-resume_section_links:           true
-resume_section_associations:    true
-# resume_section_interests:       true
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: .75rem;
+      flex-wrap: wrap;
+    }
 
-# Resume social links
-# uncomment the options you wish to display, and add your own URL
-resume_social_links:
-  resume_github_url:            "https://github.com/username"
-  resume_twitter_url:           "http://twitter.com/username"
-  resume_dribbble_url:          "https://dribbble.com/username"
-  # resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "https://www.linkedin.com/in/username"
-  # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "https://github.com/jglovier/resume-template"
-  resume_medium_url:            "https://medium.com/@username"
-  # resume_bluesky_url:           "https://bsky.app/profile/username"
-  # resume_youtube_url:           "https://www.youtube.com/@username"
-  # resume_mastodon_url:          "https://mastodon.social/@username"
-  # resume_threads_url:           "https://www.threads.net/@username"
-  # resume_stackoverflow_url:     "https://stackoverflow.com/users/0000000/username"
-  # resume_wellfound_url:         "https://wellfound.com/u/username"
-  # resume_spotify_url:           "https://open.spotify.com/user/username"
-  # resume_soundcloud_url:        "https://soundcloud.com/username"
-  # resume_tiktok_url:            "https://www.tiktok.com/@username"
-  # resume_pinterest_url:         "https://www.pinterest.com/username/"
-  # resume_snapchat_url:          "https://www.snapchat.com/add/username"
-  # resume_whatsapp_url:          "https://wa.me/15555555555"
-  # resume_vk_url:                "https://vk.com/id000000000"
-resume_print_social_links:      true
+    a.button {
+      display: inline-block;
+      padding: .7rem 1rem;
+      border: 1px solid #dce5dd;
+      border-radius: .7rem;
+      color: var(--accent);
+      font-weight: 600;
+      text-decoration: none;
+    }
 
-# Design settings
-resume_theme:                   default
+    a.button:hover, a.button:focus-visible {
+      background: #eef6f0;
+    }
 
-# Note: when editing locally, remember to restart
-# your Jekyll server when you edit this file. Changes
-# to _config.yml are only recognized when the server starts
+    .contact-links {
+      display: grid;
+      gap: .75rem;
+    }
+
+    .contact-links a {
+      color: var(--accent);
+      overflow-wrap: anywhere;
+    }
+
+    footer {
+      padding: 1rem;
+      color: var(--muted);
+      text-align: center;
+      font-size: .875rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="profile" aria-labelledby="name">
+      <div class="avatar" aria-hidden="true">YN</div>
+      <h1 id="name">Your Name</h1>
+      <p class="role">Your Role · Your Company</p>
+      <p class="location">City, Country</p>
+
+      <p class="bio">
+        A short introduction about what you do and the people or projects
+        you work with.
+      </p>
+
+      <nav aria-label="Page sections">
+        <a class="button" href="#contact">Get in touch</a>
+        <a class="button" href="https://www.linkedin.com/in/your-profile">
+          LinkedIn
+        </a>
+      </nav>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <div class="contact-links">
+        <a href="mailto:hello@example.com">hello@example.com</a>
+        <a href="https://yourwebsite.com">yourwebsite.com</a>
+        <a href="https://github.com/your-username">github.com/your-username</a>
+      </div>
+      <p class="note">Feel free to reach out about projects or collaborations.</p>
+    </section>
+  </main>
+
+  <footer>© Your Name</footer>
+</body>
+</html>
