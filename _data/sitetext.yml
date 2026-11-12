@@ -11,13 +11,13 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Compliance Consulting for Heavily Regulated Industries
+    title: Compliance Consulting for Highly Regulated Industries
     text:      
     button: Tell Me More
     buttonlink: "#services"
 
   services:
-    title: "Expertise and Experience in Medical Devices"
+    title: "Expertise in Medical Devices"
     text: "Leverage Kingfisher's experience and knowledge for your project"
     section: services
     list:
@@ -114,9 +114,9 @@ en-GB:
 en-AU:
   <<: *DEFAULT_EN
 
-# Spanish
+# Dutch
 # -------
-es: &DEFAULT_ES
+nl: &DEFAULT_NL
   header:
     title: ¡Bienvenido a nuestro Estudio!
     text: Es un placer conocerle
@@ -137,6 +137,22 @@ es: &DEFAULT_ES
       - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
         desc: "Su descripción aquí, soporte completo de **Markdown**"
         icon: fab fa-markdown
+
+ services:
+    title: "Expertise in Medical Devices"
+    text: "Leverage Kingfisher's experience and knowledge for your project"
+    section: services
+    list:
+      - title: "Team Leading Verification & Validation"
+        desc: "From Design Input to Design Validation, Kingfisher can guide you on successful, compliant V&V" 
+        icon: fas fa-ruler #find more at https://fontawesome.com/icons
+      - title: "Quality System & Standards Expertise"
+        desc: "Trained to ISO 13485, IEC 60601 Electrical Safety and FDA QSR. Gap analyses, regulatory surveys and more"
+        icon: fas fa-file-contract
+      - title: "15 years of Medical Device Experience"
+        desc: "Diverse experience in cardiac devices, infant incubators and endoscopy"
+        icon: fas fa-business-time
+
 
   portfolio:
     title: "Portafolio"
