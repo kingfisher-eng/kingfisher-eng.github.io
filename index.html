@@ -7,20 +7,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Kingfisher Engineering — Compliance, consulting, and training.">
   <title>Kingfisher Engineering</title>
-
+  <link rel="icon" href="{{ '/assets/favicon.ico' | relative_url }}" sizes="any">
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
 
   <style>
     :root {
-      color-scheme: light;
+      color-scheme: light dark;
       --ink: #000000;
       --muted: #318ACE;
       --accent: #256DA8;
       --accent-hover: #19476B;
       --background: #F2E9D5;
+      --background-dark: #0D1117; /* Set your preferred dark-mode background */
       --white: #fff;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: var(--background-dark);
+      }
     }
 
     * {
@@ -133,7 +141,9 @@
     <p class="tagline">Compliance - Consulting - Training</p>
 
     <p class="bio">
-      I offer medical device compliance support across the product lifecycle, including regulatory gap assessments, compliance planning, and analysis of how regulatory changes affect products and manufacturing. I can help prepare regulatory submissions and technical documentation for the US, EU, UK, and other markets; develop risk-management and quality documents; plan verification, validation, and external testing; support audits and CAPA activities; and provide practical compliance training for teams.
+      I offer medical device compliance support across the product lifecycle, including regulatory gap assessments, compliance planning, and analysis of how regulatory changes affect products and manufacturing. 
+      
+      I can help prepare regulatory submissions and technical documentation for the US, EU, UK, and other markets; develop risk-management and quality documents; plan verification, validation, and external testing; support audits and CAPA activities; and provide practical compliance training for teams.
     </p>
 
     <nav class="links" aria-label="Contact links">
